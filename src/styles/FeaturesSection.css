@@ -1,0 +1,27 @@
+/* index.css or App.css */
+
+/* Perspective to give depth to the card */
+.perspective {
+    perspective: 1000px;
+  }
+  
+  /* Hide the back side of the card initially */
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  /* The rotation animation */
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  
+  /* Ensure that when flipping, the card doesn't stretch */
+  .card {
+    width: 300px;
+    height: 200px;
+  }
+  
