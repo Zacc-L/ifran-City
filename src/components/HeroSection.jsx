@@ -4,11 +4,11 @@ import { Link } from 'react-scroll';
 import { FaArrowDown } from 'react-icons/fa';
 
 const images = [
-  '/1.jpg',
-  '/ifran-City/2.jpg',
-  '/13.jpg',
-  '/15.jpg',
-  '/14.webp' // Add more image paths here
+  './1.jpg',
+  './ifran-City/2.jpg',
+  './13.jpg',
+  './15.jpg',
+  './14.webp' // Add more image paths here
 ];
 
 export default function HeroSection() {
