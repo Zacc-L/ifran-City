@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import { FaArrowDown } from 'react-icons/fa';
 
 const images = [
-  '/1.jpg',
+  './1.jpg',
   '/2.jpg',
   '/13.jpg',
   '/15.jpg',
